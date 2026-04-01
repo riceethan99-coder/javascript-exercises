@@ -11,13 +11,13 @@ const sumAll = function(num1, num2) {
         return "ERROR"
     }
     
-    for(i = num1; i <= num2; i++) {
+    for(let i = num1; i <= num2; i++) {
         num3 = num3 + i
     }
 
     return num3
 };
 
-sumAll(10, [90, 1])
+sumAll(1, 10)
 // Do not edit below this line
 module.exports = sumAll;
